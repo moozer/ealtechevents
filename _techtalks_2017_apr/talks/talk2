@@ -3,9 +3,11 @@ layout: talk
 title: Challenges with data driven modelling in industry
 time: "16:10"
 presenter: Jens Adler Nielse, HSBC
-description: >
+description: |
   In this talk you will be presented with the inherent issues when modelling. <br />
-  What is the problem when modelling the unmeasurable and/or undefined variables? <br />
-  Why must the model conform to business expectations? <br />
-  Why are models more complex and less sophisticated?
+  <ul>
+  <li>What is the problem when modelling the unmeasurable and/or undefined variables?</li>
+  <li>Why must the model conform to business expectations?</li>
+  <li>Why are models more complex and less sophisticated?</li>
+  </ul>
 ---
