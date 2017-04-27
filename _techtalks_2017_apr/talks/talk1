@@ -1,9 +1,26 @@
 ---
 layout: talk
-title: Data and the EU data protection act
+title: One year with the EU data protection act – one year yet to come
 time: "15:40"
 presenter: Lars Bærentzen, Siscon
-description: >
+description: |
+  Igennem det seneste år har der være mange antagelser om hvordan implementeringen af EU-Persondataforordning – GDPR – skal fortages.
+
+  Tiden er inde, til at blive praktiske og gøre noget, med udgangspunkt i netop din organisations modenhedsniveau. Siscon giver dig 7 trin til best practice af implementeringen.
+
+  Under indlægget tager vi dig igennem bl.a. praktisk dataflow-analyse, GAP-analyse, DPIA og Compliance mod GDPR-krav.
+  <ol>
+  <li> Overblik over opgaver og ressourcer</li>
+  <li> Kortlægning af persondatabehandling</li>
+  <li> GAP / ”Hvor langt er vi fra målet”</li>
+  <li> Analyse af potentielle risici</li>
+  <li> Fastlæggelse af indsatsområder</li>
+  <li> Implementering</li>
+  <li> Løbende compliance-dokumentation og kontrol</li>
+  </ol>
+
+  Alt i alt et indlæg, der giver dig praktisk viden om hvad og hvordan opgaverne skal løses, for du får succes med implementeringen af EU-Persondataforordningen.
+
   Lars har mere end 20 års erfaringen indenfor både ledelsesmæssig sikkerhed & teknisk data & informationssikkerhed. Lars' erfaring som officer i søværnet, konsulent ved CGI (tidligere BFC data) og idemanden bag ControlManager(TM). Stærke konsulentkompetencer udnyttes optimalt i sit daglige virke, i samarbejde med Siscons kunder både i kommunale, offentlige og private virksomheder. Lars skaber succesfuld implementering af data & informationssikkerhed med Siscons kunder, understøttet af ControlManager(TM).<br />
 
 ---
