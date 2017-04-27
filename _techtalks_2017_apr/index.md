@@ -10,6 +10,8 @@ title: Introduction
 {{ event.title }}
 ------------------------------------
 
+Room A0.09
+
 ### Scheduled talks
 
 {% include talks_schedule.html %}
