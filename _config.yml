@@ -26,12 +26,12 @@ collections:
     type: Tech talks
     date: June 1
     mailchimp_listid: 287c0d2e83
-  gamejam_2017_may:
+  gamejam_2017_jun:
     output: true
     permalink: /:collection/:title.html
     title: Gamejam - June 9-11th
     type: Gamejam
-    date: June May 9-11
+    date: June 9-11
 #    mailchimp_listid: 287c0d2e83
   hackathon_2017_apr:
     output: true
