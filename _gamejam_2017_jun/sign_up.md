@@ -13,7 +13,7 @@ title: About/Sign up
 To registrer
 ---------------
 
-To register, sign up on the [facebook event](https://www.facebook.com/events/839646426173282).
+To register, sign up on the [facebook event](https://www.facebook.com/events/839646426173282) or on [meetup](https://www.meetup.com/EAL-tech-events/events/240588808/).
 
 
 Time
