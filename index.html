@@ -2,8 +2,8 @@
 layout: page
 mailchimp_listid: f7d9e9184f
 current_events:
-- gamejam_2017_jun
 past_events:
+- gamejam_2017_jun
 - techtalks_2017_may
 - techtalks_2017_apr
 - hackathon_2017_apr
@@ -32,54 +32,32 @@ and others work and play with technology.
 </div>
 
 <div class="events">
-<h2>What is scheduled?</h2>
-
-{% for ev in page.current_events %}
-  {% assign event = site.collections | where: "label", {{ev}} | first %}
-  {% assign customIconPath = "/media/" | append: event.type | append: ".png" %}
-  {% assign typeicon = "/media/defaulttype.png" %}
-  {% for static_file in site.static_files %}
-      {% if static_file.path == customIconPath %}
-          {% assign typeicon = customIconPath %}
-      {% endif %}
-  {% endfor %}
   <div class="event">
-  <a href="{{ ev }}">
-    <img src="{{typeicon}}" alt="{{ event.type }} - {{ event.date }}"/>
-    {{ event.type }}<br />
-    {{ event.date }}
+  <a href="techtalks">
+    <img src="media/Tech talks.png" alt="techtalk"/>
+    Tech talks
   </a>
-</div>
-{% endfor %}
-</div>
-
-<div class="events">
-<h2>Sign up for our newsletter</h2>
-{% include mailchimp_signup.html listid=page.mailchimp_listid uid=site.mailchimp_uid %}
-</div>
-
-<div class="events">
-<h2>Past events</h2>
-
-{% for ev in page.past_events %}
-{% assign event = site.collections | where: "label", {{ev}} | first %}
-{% assign customIconPath = "/media/" | append: event.type | append: ".png" %}
-{% assign typeicon = "/media/defaulttype.png" %}
-{% for static_file in site.static_files %}
-    {% if static_file.path == customIconPath %}
-        {% assign typeicon = customIconPath %}
-    {% endif %}
-{% endfor %}
-
-<div class="event">
-  <a href="{{ ev }}">
-    <img src="{{typeicon}}" alt="{{ event.type }} - {{ event.date }}"/>
-    {{ event.type }}<br />
-    {{ event.date }}
+  </div>
+  <div class="event">
+  <a href="gamejam">
+    <img src="media/Gamejam.png" alt="Gamejam"/>
+    Gamejam
   </a>
+  </div>
+  <div class="event">
+  <a href="builditdays">
+    <img src="media/defaulttype.png" alt="Build it days"/>
+    Built IT days
+  </a>
+  </div>
+  <div class="event">
+  <a href="information">
+    <img src="media/Information_small.png" alt="Information"/>
+    Information
+  </a>
+  </div>
 </div>
-{% endfor %}
-</div>
+
 
 <div>
 Media files are located <a href="media">here</a>
