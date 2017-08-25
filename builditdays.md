@@ -36,4 +36,4 @@ I want to come, now what?
 
 We will announce the tech talks on our [meetup page](https://www.meetup.com/EAL-tech-events/events/242585150/).
 
-See the [information page](information) for venue details.
+See the [information page]({{ site.baseurl }}/information) for venue details.
